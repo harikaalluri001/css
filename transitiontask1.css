@@ -1,0 +1,23 @@
+.parent{
+    height:100svh;
+    width:100%;
+    border:2px solid black; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    height:100px;
+    width:100px;
+    border:2px;
+    background-color: navy;
+    transition-property: all;
+    transition-duration:2s;
+}
+.child1:hover{
+          width:200px;
+          height:200px;
+          background-color: yellowgreen;
+          transform: rotate(360deg);
+          border-radius: 120px;
+}
